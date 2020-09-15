@@ -24,6 +24,7 @@ class Base{
       }
       else if(d < dAct){
         for(deg=dAct;deg>=d;deg--){
+          
           servo.write(180-deg);
           delay(n);
         }
